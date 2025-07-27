@@ -32,12 +32,12 @@ chmod 764 demo.txt
 Writing the file’s content into a new file:
 
 
- cat demo.txt > permission_check.txt
+ batcat demo.txt > permission_check.txt
 
 Appending the permission info:
 
  
- ls -l >> permission_check.txt
+ lsd -l >> permission_check.txt
 
 
 
